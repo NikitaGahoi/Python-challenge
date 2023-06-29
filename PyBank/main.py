@@ -63,6 +63,8 @@ print(f"Average Change: {avg_change}")
 print(f"Greatest Increase in Profits: {months[max_index]} (${max_profit})")
 print(f"Greatest Decrease in Profits: {months[min_index]} (${min_profit})")
 
+
+#create a text file named 'PyBank_analysis.txt' to store the result of analysis. '/n' is used to add the line in the text file
 output_file = os.path.join('.', 'Analysis', 'PyBank_analysis.txt')
 with open(output_file,"w") as result_file:
     result_file.write("Financial Analysis")
